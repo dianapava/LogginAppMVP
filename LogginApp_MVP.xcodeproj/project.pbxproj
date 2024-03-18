@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2F9AA532BA87F8100679813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9AA522BA87F8100679813 /* AppDelegate.swift */; };
+		D2F9AA552BA87F8100679813 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9AA542BA87F8100679813 /* SceneDelegate.swift */; };
+		D2F9AA572BA87F8100679813 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9AA562BA87F8100679813 /* ViewController.swift */; };
+		D2F9AA5A2BA87F8100679813 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D2F9AA592BA87F8100679813 /* Base */; };
+		D2F9AA5C2BA87F8200679813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F9AA5B2BA87F8200679813 /* Assets.xcassets */; };
+		D2F9AA5F2BA87F8200679813 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D2F9AA5E2BA87F8200679813 /* Base */; };
+		D2F9AA6A2BA87F8300679813 /* LogginApp_MVPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9AA692BA87F8300679813 /* LogginApp_MVPTests.swift */; };
+		D2F9AA742BA87F8300679813 /* LogginApp_MVPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9AA732BA87F8300679813 /* LogginApp_MVPUITests.swift */; };
+		D2F9AA762BA87F8300679813 /* LogginApp_MVPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9AA752BA87F8300679813 /* LogginApp_MVPUITestsLaunchTests.swift */; };
+		D2F9AA832BA87FD700679813 /* LogginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9AA822BA87FD700679813 /* LogginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2F9AA662BA87F8300679813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F9AA472BA87F8100679813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2F9AA4E2BA87F8100679813;
+			remoteInfo = LogginApp_MVP;
+		};
+		D2F9AA702BA87F8300679813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2F9AA472BA87F8100679813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2F9AA4E2BA87F8100679813;
+			remoteInfo = LogginApp_MVP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2F9AA4F2BA87F8100679813 /* LogginApp_MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogginApp_MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F9AA522BA87F8100679813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2F9AA542BA87F8100679813 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2F9AA562BA87F8100679813 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2F9AA592BA87F8100679813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2F9AA5B2BA87F8200679813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2F9AA5E2BA87F8200679813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2F9AA602BA87F8200679813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F9AA652BA87F8300679813 /* LogginApp_MVPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogginApp_MVPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F9AA692BA87F8300679813 /* LogginApp_MVPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginApp_MVPTests.swift; sourceTree = "<group>"; };
+		D2F9AA6F2BA87F8300679813 /* LogginApp_MVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogginApp_MVPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F9AA732BA87F8300679813 /* LogginApp_MVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginApp_MVPUITests.swift; sourceTree = "<group>"; };
+		D2F9AA752BA87F8300679813 /* LogginApp_MVPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginApp_MVPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2F9AA822BA87FD700679813 /* LogginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2F9AA4C2BA87F8100679813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F9AA622BA87F8300679813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F9AA6C2BA87F8300679813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2F9AA462BA87F8100679813 = {
+			isa = PBXGroup;
+			children = (
+				D2F9AA512BA87F8100679813 /* LogginApp_MVP */,
+				D2F9AA682BA87F8300679813 /* LogginApp_MVPTests */,
+				D2F9AA722BA87F8300679813 /* LogginApp_MVPUITests */,
+				D2F9AA502BA87F8100679813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2F9AA502BA87F8100679813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2F9AA4F2BA87F8100679813 /* LogginApp_MVP.app */,
+				D2F9AA652BA87F8300679813 /* LogginApp_MVPTests.xctest */,
+				D2F9AA6F2BA87F8300679813 /* LogginApp_MVPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2F9AA512BA87F8100679813 /* LogginApp_MVP */ = {
+			isa = PBXGroup;
+			children = (
+				D2F9AA522BA87F8100679813 /* AppDelegate.swift */,
+				D2F9AA542BA87F8100679813 /* SceneDelegate.swift */,
+				D2F9AA562BA87F8100679813 /* ViewController.swift */,
+				D2F9AA582BA87F8100679813 /* Main.storyboard */,
+				D2F9AA5B2BA87F8200679813 /* Assets.xcassets */,
+				D2F9AA5D2BA87F8200679813 /* LaunchScreen.storyboard */,
+				D2F9AA602BA87F8200679813 /* Info.plist */,
+				D2F9AA822BA87FD700679813 /* LogginView.swift */,
+			);
+			path = LogginApp_MVP;
+			sourceTree = "<group>";
+		};
+		D2F9AA682BA87F8300679813 /* LogginApp_MVPTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2F9AA692BA87F8300679813 /* LogginApp_MVPTests.swift */,
+			);
+			path = LogginApp_MVPTests;
+			sourceTree = "<group>";
+		};
+		D2F9AA722BA87F8300679813 /* LogginApp_MVPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2F9AA732BA87F8300679813 /* LogginApp_MVPUITests.swift */,
+				D2F9AA752BA87F8300679813 /* LogginApp_MVPUITestsLaunchTests.swift */,
+			);
+			path = LogginApp_MVPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2F9AA4E2BA87F8100679813 /* LogginApp_MVP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F9AA792BA87F8300679813 /* Build configuration list for PBXNativeTarget "LogginApp_MVP" */;
+			buildPhases = (
+				D2F9AA4B2BA87F8100679813 /* Sources */,
+				D2F9AA4C2BA87F8100679813 /* Frameworks */,
+				D2F9AA4D2BA87F8100679813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogginApp_MVP;
+			productName = LogginApp_MVP;
+			productReference = D2F9AA4F2BA87F8100679813 /* LogginApp_MVP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2F9AA642BA87F8300679813 /* LogginApp_MVPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F9AA7C2BA87F8300679813 /* Build configuration list for PBXNativeTarget "LogginApp_MVPTests" */;
+			buildPhases = (
+				D2F9AA612BA87F8300679813 /* Sources */,
+				D2F9AA622BA87F8300679813 /* Frameworks */,
+				D2F9AA632BA87F8300679813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2F9AA672BA87F8300679813 /* PBXTargetDependency */,
+			);
+			name = LogginApp_MVPTests;
+			productName = LogginApp_MVPTests;
+			productReference = D2F9AA652BA87F8300679813 /* LogginApp_MVPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2F9AA6E2BA87F8300679813 /* LogginApp_MVPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2F9AA7F2BA87F8300679813 /* Build configuration list for PBXNativeTarget "LogginApp_MVPUITests" */;
+			buildPhases = (
+				D2F9AA6B2BA87F8300679813 /* Sources */,
+				D2F9AA6C2BA87F8300679813 /* Frameworks */,
+				D2F9AA6D2BA87F8300679813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2F9AA712BA87F8300679813 /* PBXTargetDependency */,
+			);
+			name = LogginApp_MVPUITests;
+			productName = LogginApp_MVPUITests;
+			productReference = D2F9AA6F2BA87F8300679813 /* LogginApp_MVPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2F9AA472BA87F8100679813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D2F9AA4E2BA87F8100679813 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D2F9AA642BA87F8300679813 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D2F9AA4E2BA87F8100679813;
+					};
+					D2F9AA6E2BA87F8300679813 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D2F9AA4E2BA87F8100679813;
+					};
+				};
+			};
+			buildConfigurationList = D2F9AA4A2BA87F8100679813 /* Build configuration list for PBXProject "LogginApp_MVP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2F9AA462BA87F8100679813;
+			productRefGroup = D2F9AA502BA87F8100679813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2F9AA4E2BA87F8100679813 /* LogginApp_MVP */,
+				D2F9AA642BA87F8300679813 /* LogginApp_MVPTests */,
+				D2F9AA6E2BA87F8300679813 /* LogginApp_MVPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2F9AA4D2BA87F8100679813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F9AA5C2BA87F8200679813 /* Assets.xcassets in Resources */,
+				D2F9AA5F2BA87F8200679813 /* Base in Resources */,
+				D2F9AA5A2BA87F8100679813 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F9AA632BA87F8300679813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F9AA6D2BA87F8300679813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2F9AA4B2BA87F8100679813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F9AA572BA87F8100679813 /* ViewController.swift in Sources */,
+				D2F9AA532BA87F8100679813 /* AppDelegate.swift in Sources */,
+				D2F9AA832BA87FD700679813 /* LogginView.swift in Sources */,
+				D2F9AA552BA87F8100679813 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F9AA612BA87F8300679813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F9AA6A2BA87F8300679813 /* LogginApp_MVPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F9AA6B2BA87F8300679813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F9AA762BA87F8300679813 /* LogginApp_MVPUITestsLaunchTests.swift in Sources */,
+				D2F9AA742BA87F8300679813 /* LogginApp_MVPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2F9AA672BA87F8300679813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2F9AA4E2BA87F8100679813 /* LogginApp_MVP */;
+			targetProxy = D2F9AA662BA87F8300679813 /* PBXContainerItemProxy */;
+		};
+		D2F9AA712BA87F8300679813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2F9AA4E2BA87F8100679813 /* LogginApp_MVP */;
+			targetProxy = D2F9AA702BA87F8300679813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2F9AA582BA87F8100679813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2F9AA592BA87F8100679813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2F9AA5D2BA87F8200679813 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2F9AA5E2BA87F8200679813 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2F9AA772BA87F8300679813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2F9AA782BA87F8300679813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2F9AA7A2BA87F8300679813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LogginApp_MVP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "diana.com.LogginApp-MVP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2F9AA7B2BA87F8300679813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LogginApp_MVP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "diana.com.LogginApp-MVP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2F9AA7D2BA87F8300679813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "diana.com.LogginApp-MVPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogginApp_MVP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LogginApp_MVP";
+			};
+			name = Debug;
+		};
+		D2F9AA7E2BA87F8300679813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "diana.com.LogginApp-MVPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogginApp_MVP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LogginApp_MVP";
+			};
+			name = Release;
+		};
+		D2F9AA802BA87F8300679813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "diana.com.LogginApp-MVPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LogginApp_MVP;
+			};
+			name = Debug;
+		};
+		D2F9AA812BA87F8300679813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "diana.com.LogginApp-MVPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LogginApp_MVP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2F9AA4A2BA87F8100679813 /* Build configuration list for PBXProject "LogginApp_MVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F9AA772BA87F8300679813 /* Debug */,
+				D2F9AA782BA87F8300679813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F9AA792BA87F8300679813 /* Build configuration list for PBXNativeTarget "LogginApp_MVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F9AA7A2BA87F8300679813 /* Debug */,
+				D2F9AA7B2BA87F8300679813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F9AA7C2BA87F8300679813 /* Build configuration list for PBXNativeTarget "LogginApp_MVPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F9AA7D2BA87F8300679813 /* Debug */,
+				D2F9AA7E2BA87F8300679813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F9AA7F2BA87F8300679813 /* Build configuration list for PBXNativeTarget "LogginApp_MVPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F9AA802BA87F8300679813 /* Debug */,
+				D2F9AA812BA87F8300679813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2F9AA472BA87F8100679813 /* Project object */;
+}
