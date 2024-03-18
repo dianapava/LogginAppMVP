@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LogginUserViewController.swift
 //  LogginApp_MVP
 //
 //  Created by Diana Pava Avila on 18/03/24.
@@ -7,8 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class LogginUserViewController: UIViewController {
     
     private lazy var logginView: LogginView = {
         let view = LogginView()
@@ -33,5 +32,3 @@ class ViewController: UIViewController {
         ])
     }
 }
-
-

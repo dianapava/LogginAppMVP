@@ -18,6 +18,11 @@
 		D2F9AA762BA87F8300679813 /* LogginApp_MVPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9AA752BA87F8300679813 /* LogginApp_MVPUITestsLaunchTests.swift */; };
 		D2F9AA832BA87FD700679813 /* LogginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9AA822BA87FD700679813 /* LogginView.swift */; };
 		D2F9AA872BA8851D00679813 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D2F9AA862BA8851D00679813 /* Lottie */; };
+		D2F9AA8B2BA8D38900679813 /* LogginUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9AA8A2BA8D38900679813 /* LogginUserViewController.swift */; };
+		D2F9AA8D2BA8D3D500679813 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9AA8C2BA8D3D500679813 /* WelcomeView.swift */; };
+		D2F9AA8F2BA8D42900679813 /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = D2F9AA8E2BA8D42900679813 /* animation.json */; };
+		D2F9AA912BA8D7E300679813 /* animation_Login.json in Resources */ = {isa = PBXBuildFile; fileRef = D2F9AA902BA8D7E300679813 /* animation_Login.json */; };
+		D2F9AA932BA8DC8D00679813 /* hi.json in Resources */ = {isa = PBXBuildFile; fileRef = D2F9AA922BA8DC8D00679813 /* hi.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,11 @@
 		D2F9AA732BA87F8300679813 /* LogginApp_MVPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginApp_MVPUITests.swift; sourceTree = "<group>"; };
 		D2F9AA752BA87F8300679813 /* LogginApp_MVPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginApp_MVPUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D2F9AA822BA87FD700679813 /* LogginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginView.swift; sourceTree = "<group>"; };
+		D2F9AA8A2BA8D38900679813 /* LogginUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginUserViewController.swift; sourceTree = "<group>"; };
+		D2F9AA8C2BA8D3D500679813 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		D2F9AA8E2BA8D42900679813 /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
+		D2F9AA902BA8D7E300679813 /* animation_Login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation_Login.json; sourceTree = "<group>"; };
+		D2F9AA922BA8DC8D00679813 /* hi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hi.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +114,17 @@
 		D2F9AA512BA87F8100679813 /* LogginApp_MVP */ = {
 			isa = PBXGroup;
 			children = (
+				D2F9AA892BA8D34A00679813 /* LogginUser */,
+				D2F9AA882BA8D30300679813 /* Login */,
 				D2F9AA522BA87F8100679813 /* AppDelegate.swift */,
 				D2F9AA542BA87F8100679813 /* SceneDelegate.swift */,
-				D2F9AA562BA87F8100679813 /* ViewController.swift */,
 				D2F9AA582BA87F8100679813 /* Main.storyboard */,
 				D2F9AA5B2BA87F8200679813 /* Assets.xcassets */,
 				D2F9AA5D2BA87F8200679813 /* LaunchScreen.storyboard */,
 				D2F9AA602BA87F8200679813 /* Info.plist */,
-				D2F9AA822BA87FD700679813 /* LogginView.swift */,
+				D2F9AA922BA8DC8D00679813 /* hi.json */,
+				D2F9AA902BA8D7E300679813 /* animation_Login.json */,
+				D2F9AA8E2BA8D42900679813 /* animation.json */,
 			);
 			path = LogginApp_MVP;
 			sourceTree = "<group>";
@@ -138,6 +151,24 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2F9AA882BA8D30300679813 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D2F9AA562BA87F8100679813 /* ViewController.swift */,
+				D2F9AA8C2BA8D3D500679813 /* WelcomeView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D2F9AA892BA8D34A00679813 /* LogginUser */ = {
+			isa = PBXGroup;
+			children = (
+				D2F9AA8A2BA8D38900679813 /* LogginUserViewController.swift */,
+				D2F9AA822BA87FD700679813 /* LogginView.swift */,
+			);
+			path = LogginUser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +284,9 @@
 				D2F9AA5C2BA87F8200679813 /* Assets.xcassets in Resources */,
 				D2F9AA5F2BA87F8200679813 /* Base in Resources */,
 				D2F9AA5A2BA87F8100679813 /* Base in Resources */,
+				D2F9AA932BA8DC8D00679813 /* hi.json in Resources */,
+				D2F9AA8F2BA8D42900679813 /* animation.json in Resources */,
+				D2F9AA912BA8D7E300679813 /* animation_Login.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +311,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2F9AA8D2BA8D3D500679813 /* WelcomeView.swift in Sources */,
 				D2F9AA572BA87F8100679813 /* ViewController.swift in Sources */,
 				D2F9AA532BA87F8100679813 /* AppDelegate.swift in Sources */,
+				D2F9AA8B2BA8D38900679813 /* LogginUserViewController.swift in Sources */,
 				D2F9AA832BA87FD700679813 /* LogginView.swift in Sources */,
 				D2F9AA552BA87F8100679813 /* SceneDelegate.swift in Sources */,
 			);
