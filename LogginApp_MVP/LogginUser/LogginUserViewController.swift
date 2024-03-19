@@ -12,6 +12,7 @@ class LogginUserViewController: UIViewController {
     private lazy var logginView: LogginView = {
         let view = LogginView()
         view.translatesAutoresizingMaskIntoConstraints = false
+        view.delegate = self
         return view
     }()
 
@@ -35,6 +36,9 @@ class LogginUserViewController: UIViewController {
 
 extension LogginUserViewController: LogginViewDelegate {
     func showLoading() {
-        
+        let viewController = LoadingViewController()
+        viewController.modalPresentationStyle = .overCurrentContext
+        viewController.modalTransitionStyle = .crossDissolve
+        present(viewController, animated: true)
     }
 }
