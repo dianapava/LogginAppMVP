@@ -32,3 +32,9 @@ class LogginUserViewController: UIViewController {
         ])
     }
 }
+
+extension LogginUserViewController: LogginViewDelegate {
+    func showLoading() {
+        
+    }
+}
